@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "-gcp-project-tfstate"
+    bucket = "https://console.cloud.google.com/storage/browser/deb-gcp-project-tfstate"
     prefix = "env/dev"
   }
 }
