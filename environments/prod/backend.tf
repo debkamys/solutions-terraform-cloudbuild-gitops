@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "-gcp-project-tfstate"
+    bucket = "deb-gcp-project-tfstate"
     prefix = "env/prod"
   }
 }
