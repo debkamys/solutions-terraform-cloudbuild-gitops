@@ -1,1 +1,1 @@
-project="-gcp-project"
+project="deb-gcp-project"
